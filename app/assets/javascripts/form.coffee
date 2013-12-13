@@ -4,6 +4,7 @@ $ ->
   month = currentTime.getMonth()
   day = currentTime.getDate()
   year = currentTime.getFullYear()
+
   $("#datepicker").datepicker
     minDate: new Date(year, month, day)
     dateFormat: "yy-mm-dd"
