@@ -9,11 +9,11 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require foundation_and_overrides
  *= require jquery.ui.datepicker
  *= require homepage
  *= require css
  *= require css_002
  *= require style
- *= require reveal
 
  */
